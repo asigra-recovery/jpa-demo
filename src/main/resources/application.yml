@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/asigra_demo?currentSchema=sc_identity&ssl=false&reWriteBatchedInserts=true
+    username: service
+    password: service123
+    initialization-mode: always
+  jpa:
+    hibernate:
+      ddl-auto: none
+
